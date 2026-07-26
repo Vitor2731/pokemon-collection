@@ -1,0 +1,69 @@
+.resumo-colecao-secao {
+    padding: 10px 20px 0 20px;
+}
+
+.resumo-colecao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--cor-bg-secundario);
+    padding: 14px;
+
+    border: 1px solid var(--cor-borda);
+    border-radius: 10px;
+}
+
+.resumo-colecao h2 {
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+
+.resumo-colecao div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 6px;
+
+    background-color: #212437;
+    padding: 10px;
+    height: 80px;
+
+    border-radius: 10px;
+}
+
+.resumo-colecao .label{
+    color: var(--texto-azul);
+    font-size: 11px;
+    letter-spacing: 0.3px;
+}
+
+.resumo-colecao .value{
+    font-size: 22px;
+    letter-spacing: 0.3px;
+}
+
+.resumo-colecao .delta{
+    color: var(--texto-verde);
+    font-size: 11px;
+    letter-spacing: 0.3px;
+}
+
+.resumo-colecao ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 12px;
+    list-style-type: none;
+}
+
+.resumo-colecao ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    color: var(--texto-cinza);
+    border-bottom: 1px solid var(--cor-borda);
+    line-height: 24px;
+}

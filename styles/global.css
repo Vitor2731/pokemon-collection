@@ -3,8 +3,11 @@
     --cor-bg-secundario:#1A1C29;
     --cor-bg-terciario:#7C6CF2;
 
+    --cor-borda: #2a2d40;
+
     --texto-branco: #ffffff;
-    --texto-azul: #456290;
+    --texto-azul: rgb(69, 98, 144);
+    --texto-cinza: #8D90A3;
     --texto-verde: #34D399;
 }
 
@@ -14,3 +17,9 @@
 }
 
 * {margin: 0; padding: 0}
+
+body {
+    font-family: 'Roboto';
+    background-color: var(--cor-bg-primario);
+    color: var(--texto-branco);
+}
