@@ -1,5 +1,5 @@
 .secao-colecoes {
-    padding: 10px 20px 0 20px;
+    padding: 16px 20px 0 20px;
 }
 
 .div-colecoes {
@@ -49,6 +49,8 @@
     height: 16px;
     border-radius: 4px;
 }
+
+/*Coleções por ID para preencher a barra de progresso da coleção*/
 
 #c-151 {
     width: 75%;
