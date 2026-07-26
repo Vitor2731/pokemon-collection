@@ -1,14 +1,16 @@
 :root {
-    --cor-primaria: #12131C;
-    --cor-secundaria:#1A1C29;
-    --cor-terciaria:#7C6CF2;
+    --cor-bg-primario: #12131C;
+    --cor-bg-secundario:#1A1C29;
+    --cor-bg-terciario:#7C6CF2;
 
-    --cor-texto-primaria: #ffffff;
-    --cor-texto-secundaria: #456290;
-    --cor-texto-terciaria: #34D399;
+    --texto-branco: #ffffff;
+    --texto-azul: #456290;
+    --texto-verde: #34D399;
 }
 
 @font-face {
     font-family: 'Roboto';
     src: url('../fonts/Roboto-VariableFont_wdth\,wght.ttf');
 }
+
+* {margin: 0; padding: 0}
