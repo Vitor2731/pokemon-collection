@@ -31,7 +31,8 @@
 .grid-minha-colecao {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  row-gap: 10px;
+  column-gap: 6px;
 }
 
 .div-carta {
@@ -40,7 +41,7 @@
   gap: 5px;
 
   background-color: var(--cor-bg-secundario);
-  padding: 10px 16px;
+  padding: 10px 12px;
   border-radius: 8px;
 }
 
