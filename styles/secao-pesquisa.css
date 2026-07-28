@@ -1,34 +1,33 @@
 .secao-de-pesquisa {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
 
-    padding: 20px 16px;
+  padding: 20px 20px;
 }
 
 .secao-de-pesquisa input {
-    width: 60%;
-    height: 24px;
+  width: 100%;
 
-    padding: 10px 12px;
-    font-size: 16px;
-    color: var(--texto-branco);
-    background-color: var(--cor-bg-secundario);
+  padding: 10px 12px;
+  font-size: 16px;
+  color: var(--texto-branco);
+  background-color: var(--cor-bg-secundario);
 
-    border: 1px solid var(--cor-borda);
-    border-radius: 10px;
+  border: 1px solid var(--cor-borda);
+  border-radius: 10px;
 }
 
 .secao-de-pesquisa button {
-    background-color: var(--cor-bg-terciario);
+  background-color: var(--cor-bg-terciario);
 
-    font-size: 16px;
-    font-weight: bold;
-    color: var(--texto-branco);
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--texto-branco);
 
-    width: 90px;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
+  width: 90px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
 }

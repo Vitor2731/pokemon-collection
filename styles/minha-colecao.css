@@ -1,65 +1,77 @@
 .secao-minha-colecao {
-    padding: 16px 24px 0 24px;
+  padding: 16px 24px 0 24px;
 
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .inputs-minha-colecao {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .secao-minha-colecao h3 {
-    font-size: 14px;
+  font-size: 14px;
+}
+
+.secao-minha-colecao select {
+  width: 100%;
+
+  padding: 10px 12px;
+  font-size: 16px;
+  color: var(--texto-branco);
+  background-color: var(--cor-bg-secundario);
+
+  border: 1px solid var(--cor-borda);
+  border-radius: 10px;
 }
 
 .grid-minha-colecao {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
 }
 
 .div-carta {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 
-    background-color: var(--cor-bg-secundario);
-    padding: 10px 16px;
-    border-radius: 8px;
+  background-color: var(--cor-bg-secundario);
+  padding: 10px 16px;
+  border-radius: 8px;
 }
 
 .div-carta img {
-    width: 142px;
-    border-radius: 8px;
-    align-self: center;
-    margin-bottom: 10px;
+  width: 142px;
+  border-radius: 8px;
+  align-self: center;
+  margin-bottom: 10px;
 }
 
 .div-carta h4 {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .div-carta p {
-    color: var(--texto-cinza);  
-    font-size: 11px;
-    margin-bottom: 5px;
+  color: var(--texto-cinza);
+  font-size: 11px;
+  margin-bottom: 5px;
 }
 
 .div-carta div {
-    color: var(--texto-verde);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: bold;
-    font-size: 13px;
+  color: var(--texto-verde);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 13px;
 }
 
 .div-carta div span {
-    color: var(--texto-cinza);
-    font-size: 11px;
+  color: var(--texto-cinza);
+  font-size: 11px;
 }
