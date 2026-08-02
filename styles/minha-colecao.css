@@ -3,21 +3,22 @@
 
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 
 .inputs-minha-colecao {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
 }
 
 .secao-minha-colecao h3 {
   font-size: 14px;
 }
 
-.secao-minha-colecao select {
+.secao-minha-colecao input {
   width: 100%;
+  height: 30px;
 
   padding: 10px 12px;
   font-size: 16px;
@@ -25,7 +26,20 @@
   background-color: var(--cor-bg-secundario);
 
   border: 1px solid var(--cor-borda);
-  border-radius: 10px;
+  border-radius: 5px;
+}
+
+.secao-minha-colecao select {
+  width: 100%;
+  height: 30px;
+
+  padding: 10px 12px;
+  font-size: 16px;
+  color: var(--texto-branco);
+  background-color: var(--cor-bg-secundario);
+
+  border: 1px solid var(--cor-borda);
+  border-radius: 5px;
 }
 
 .grid-minha-colecao {
