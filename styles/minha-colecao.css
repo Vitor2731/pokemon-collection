@@ -62,7 +62,7 @@
   gap: 5px;
 
   background-color: var(--cor-bg-secundario);
-  padding: 15px 12px;
+  padding: 15px 12px 10px 12px;
   border-radius: 8px;
 }
 
@@ -92,16 +92,32 @@
 }
 
 .div-carta div {
-  color: var(--texto-verde);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.div-carta div p {
+  color: var(--texto-verde);
   font-weight: bold;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .div-carta div span {
   color: var(--texto-cinza);
   font-size: 11px;
+}
+
+.quantidade-carta span {
+  text-align: center;
+  padding: 3px 0px;
+  border-radius: 4px;
+  width: 30px;
+  font-size: 10px;
+  background-color: var(--cor-bg-primario);
+
+  position: absolute;
+  right: 50px;
+  bottom: 102px;
 }
