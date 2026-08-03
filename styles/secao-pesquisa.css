@@ -20,7 +20,7 @@
 }
 
 .secao-de-pesquisa button {
-  background-color: var(--cor-bg-terciario);
+  background-color: var(--cor-button-secundario);
 
   font-size: 16px;
   font-weight: bold;
@@ -30,4 +30,9 @@
   padding: 10px;
   border: none;
   border-radius: 10px;
+}
+
+.secao-de-pesquisa button:hover {
+  background-color: var(--cor-button-primario);
+  transition: background-color 0.3s;
 }

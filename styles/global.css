@@ -1,27 +1,32 @@
 :root {
-    --cor-bg-primario: #12131C;
-    --cor-bg-secundario:#1A1C29;
-    --cor-bg-terciario:#7C6CF2;
+  --cor-bg-primario: #12131c;
+  --cor-bg-secundario: #1a1c29;
 
-    --cor-borda: #2a2d40;
+  --cor-button-primario: #685cc4;
+  --cor-button-secundario: #7c6cf2;
 
-    --texto-branco: #ffffff;
-    --texto-azul: rgb(69, 98, 144);
-    --texto-cinza: #8D90A3;
-    --texto-verde: #34D399;
+  --cor-borda: #2a2d40;
+
+  --texto-branco: #ffffff;
+  --texto-azul: rgb(69, 98, 144);
+  --texto-cinza: #8d90a3;
+  --texto-verde: #34d399;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/Roboto-VariableFont_wdth\,wght.ttf');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-VariableFont_wdth\,wght.ttf");
 }
 
-* {margin: 0; padding: 0; box-sizing: border-box;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-    font-family: 'Roboto';
-    background-color: var(--cor-bg-primario);
-    color: var(--texto-branco);
-    height: 2000px;
+  font-family: "Roboto";
+  background-color: var(--cor-bg-primario);
+  color: var(--texto-branco);
+  height: 2000px;
 }
-
